@@ -1,0 +1,140 @@
+.history-section {
+    background-color: beige;
+    padding: 40px 0;
+    max-width: 1225px;
+    margin: 0 auto; 
+    padding-top: 20px; 
+}
+
+.history-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.history-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.history-content {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.history-content h3 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.history-content h1 {
+    font-size: 36px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.history-content p {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.history-content .btn-project {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.history-content .btn-project:hover {
+    background-color: #444;
+}
+
+
+
+
+
+/*----------------------------newsletter-----------------------------*/
+.newsletter-section {
+    background-color: beige;
+    padding: 40px 0;
+    max-width: 1225px;
+    margin: 0 auto; 
+    padding-top: 20px;
+    margin-top: 5%;
+}
+
+.newsletter-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.newsletter-content {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.newsletter-content h1 {
+    font-size: 36px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.newsletter-content p {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.newsletter-form button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-form button i {
+    margin-right: 5px;
+}
+
+.newsletter-form button:hover {
+    background-color: #444;
+}

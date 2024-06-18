@@ -1,0 +1,162 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#searchBar {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1225px;
+    margin: 0 auto; /* Centrer la product-container */
+    padding-top: 20px; 
+}
+
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.product {
+    flex: 1 1 calc(25% - 40px);
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.product h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+.product .prix {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+.product .taille {
+    font-size: 1em;
+    margin: 0 0 10px;
+}
+#acceuille-nouveautes {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/*--------------la partie ronde-----------------------------------*/
+#section-ronde {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: beige;
+    border: none; 
+}
+#section-ronde .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: none;
+    background-color: beige;
+}
+.case-ronde {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    transition: transform 0.3s ease;
+    box-shadow: none;
+    border: none;
+}
+.case-ronde:hover {
+    transform: scale(1.1);
+}
+.case-ronde a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.img-ronde {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+.case-titre {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.add-to-cart-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.add-to-cart-link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/*--------------nouveauté----------------------------------*/
+.new-arrival-section {
+    position: relative;
+    width: calc(50% - 20px); 
+    height: 430px;
+    margin: 20px 0;
+    background: url('../images/jupe1.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-arrival-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.new-arrival-content h2 {
+    color: #fff;
+    font-size: 36px; 
+}
+
+.new-arrival-content i {
+    color: #fff;
+    font-size: 24px; 
+    margin-top: 10px;
+}

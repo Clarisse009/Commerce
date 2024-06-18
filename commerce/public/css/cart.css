@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.cart-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-header h1 {
+    font-size: 24px;
+}
+
+.cart-header .item-count {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.close-btn {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.divider {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.empty-cart {
+    text-align: center;
+}
+
+.empty-cart img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.empty-cart h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.empty-cart .explore-products {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cart-items {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart-items th, .cart-items td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.cart-items th {
+    background-color: #f8f8f8;
+}
+
+.product-image {
+    max-width: 80px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-controls button {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quantity-controls input {
+    width: 40px;
+    text-align: center;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.remove-item {
+    color: #e91e63;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.remove-item:hover {
+    text-decoration: underline;
+}
+
+.cart-total {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.cart-total h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cart-total h3 {
+    font-size: 20px;
+    color: #e91e63;
+}
+
+.checkout-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.checkout-actions button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+.checkout {
+    background-color: #333;
+    color: #fff;
+}
+
+.one-click-buy {
+    background-color: #ffeb3b;
+    color: #333;
+}
+
+.cart-actions {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.share-cart {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.payment-info {
+    text-align: center;
+}
+
+.alma-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alma-logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.alma-logo p {
+    margin-left: 10px;
+}

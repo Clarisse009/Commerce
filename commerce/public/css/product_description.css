@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.product-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.image-gallery {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.product-details {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+.size-selection span {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sizes {
+    display: flex;
+    gap: 10px;
+}
+
+.size {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #f1f1f1;
+}
+
+.size:hover {
+    border-color: #333;
+}
+
+.stock-status {
+    margin: 20px 0;
+}
+
+.in-stock {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.purchase-options {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.add-to-cart {
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #ffeb3b;
+    color: #000;
+    text-decoration: none;
+}
+
+.payment-info {
+    margin-top: 20px;
+}
+
+.alma-logo {
+    display: flex;
+    align-items: center;
+}
+
+.alma-logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.alma-logo p {
+    margin: 0 0 0 10px;
+}
